@@ -3,5 +3,6 @@ channels:
   - default
 dependencies:
   - python=3.10
+  - nglview
   - pip:
     - "git+https://github.com/MolSSI/QCFractal.git@v0.50b1#egg=qcportal&subdirectory=qcportal"
