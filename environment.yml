@@ -1,8 +1,7 @@
-name: qcademo
+name: qcarchive_demo
 channels:
   - default
 dependencies:
   - python=3.10
+  - qcportal
   - nglview
-  - pip:
-    - "git+https://github.com/MolSSI/QCFractal.git@v0.50b12#egg=qcportal&subdirectory=qcportal"
